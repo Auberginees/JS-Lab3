@@ -1,0 +1,65 @@
+var num = 10; // number
+var string = "Hey-o"; 
+var bool = true;
+var mas = [1, 2, 3];
+var object = {name: "Dodge", age: 3 };
+var null1 = null;
+var underfind;
+var symb = Symbol("mySymbol");
+var fun = function() {console.log("Hello"); };
+var date = new Date();
+
+console.log(typeof num); /* number
+number 
+number */ 
+console.log(typeof string);
+console.log(typeof bool);
+console.log(typeof mas);
+console.log(typeof object);
+console.log(typeof null1);
+console.log(typeof underfind);
+console.log(typeof symb);
+console.log(typeof fun);
+console.log(typeof date);
+
+var a = 10;
+var b = 5;
+var c = 3;
+
+var addition = a + b;
+console.log("Addition:", addition);
+
+var subtraction = a - b;
+console.log("Subtraction:", subtraction);
+
+var multiplication = a * b;
+console.log("Multiplication:", multiplication);
+
+var division = a / b;
+console.log("Division:", division);
+
+var remainder = a % b;
+console.log("Remainder:", remainder);
+
+console.log(a > b); // true (більше)
+console.log(a < b); // false (менше)
+console.log(a >= b); // true (більше або дорівнює)
+console.log(a <= b); // false (менше або дорівнює)
+console.log(a === b); // false (рівне)
+console.log(a !== b); // true (не дорівнює)
+
+// Логічний оператор "і" (AND)
+console.log((a > b) && (b > c)); // true (обидва умови виконуються)
+console.log((a > b) && (b < c)); // false (одна з умов не виконується)
+
+// Логічний оператор "або" (OR)
+console.log((a > b) || (b > c)); // true (хоча б одна умова виконується)
+console.log((a < b) || (b < c)); // false (обидві умови не виконуються)
+
+// Побітові оператори
+console.log(a & b); // 0 (побітове "І")
+console.log(a | b); // 15 (побітове "АБО")
+console.log(a ^ b); // 15 (побітове "Виключаюче АБО")
+console.log(~a); // -11 (побітове "НЕ")
+console.log(a << 1); // 20 (побітовий зсув вліво на 1)
+console.log(a >> 1); // 5 (побітовий зсув вправо на 1)
